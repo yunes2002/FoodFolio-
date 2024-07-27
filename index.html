@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- this is the header of website -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-logo">
+                    <img src="images/lgo.svg" alt="logo">
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Menu</a></a></li>
+                        <li><a href="#">Sale off</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-links">
+                    <a class="signin" href="#">Sign in</a>
+                    <a class="lognin" href="#">Logn in</a>
+                </div>
+                <div class="sidebar-menu">
+
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 14C2 13.4477 2.44772 13 3 13H21C21.5523 13 22 13.4477 22 14C22 14.5523 21.5523 15 21 15H3C2.44772 15 2 14.5523 2 14Z"
+                            fill="#504F4F" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3 10C3 6.68629 5.68629 4 9 4H15C18.3137 4 21 6.68629 21 10C21 10.5523 20.5523 11 20 11H4C3.44772 11 3 10.5523 3 10ZM9 8C9 8.55228 8.55228 9 8 9C7.44772 9 7 8.55228 7 8C7 7.44772 7.44772 7 8 7C8.55228 7 9 7.44772 9 8ZM12 9C12.5523 9 13 8.55228 13 8C13 7.44772 12.5523 7 12 7C11.4477 7 11 7.44772 11 8C11 8.55228 11.4477 9 12 9ZM17 8C17 8.55228 16.5523 9 16 9C15.4477 9 15 8.55228 15 8C15 7.44772 15.4477 7 16 7C16.5523 7 17 7.44772 17 8Z"
+                            fill="#504F4F" />
+                        <path
+                            d="M21 18C21 19.1046 20.1046 20 19 20H5C3.89543 20 3 19.1046 3 18C3 17.4477 3.44772 17 4 17H20C20.5523 17 21 17.4477 21 18Z"
+                            fill="#504F4F" />
+                    </svg>
+
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="order-info">
+                    <h1>Order your favourite food</h1>
+                    <p>Hamburger has many flavors, have you tried Cheese Beef Hamburger?</p>
+                </div>
+                <div class="order-food">
+                    <p class="total-order">Total Order : $<span>5.39</span> </p>
+                    <div class="order-wrapper">
+                        <div class="order-count">
+                            <button><img src="images/plus.svg" alt="plus"></button>
+                            | <span class="order-number">3</span> |
+                            <button><img src="images/minus.svg" alt="minus"></button>
+                        </div>
+                        <a class="order-link order-link-main" href="#">
+                            <img src="images/Shopping Basket.svg" alt="">
+                            <span>Order now</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-image-wrapper">
+                    <img class="header-image" src="images/Group 15.svg" alt="header-image">
+                    <div class="delivery-info">
+                        <div class="delivery-icon-wrapper">
+                            <img src="images/Alarm.svg" alt="alarm">
+                        </div>
+                        <div class="delivery-info-title">
+                            <span>Delivery</span>
+                            <span>30 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- this is the main part of website -->
+    <main class="main">
+
+        <div class="food-list-wrapper">
+            <div class="container">
+                <div class="food-categories">
+                    <h1>menu</h1>
+                    <div class="categories-list">
+                        <a href="#" class="category-item">
+                            <img src="images/Badge Discount.svg" alt="">
+                            <span>Best seller</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <img src="images/Burger.svg" alt="">
+                            <span>Hamberger</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <img src="images/Cup 01.svg" alt="">
+                            <span>Drink</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <img src="images/Ice Cream.svg" alt="">
+                            <span>Dessert</span>
+                        </a>
+                        <a href="#" class="category-item">
+                            <img src="images/Serving Plate.svg" alt="">
+                            <span>Fried Chicken</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="food-list-items">
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/2.svg" alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">Cheese Beef Hamburger</h3>
+                                    <p class="food-detail">fried chicken balls, french fries</p>
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>5.39</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/1.svg" alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">Combo funny</h3>
+                                    <p class="food-detail">fried chicken balls, french fries</p>
+
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>10.3</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/high-angle-shot-basket-delicious-fried-chicken-with-hot-sauce-black-surface 1.svg"
+                                        alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">‌Chicken with Spicy Sauce</h3>
+                                    <p class="food-detail">chili garlic sauce, black pepper sauce</p>
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>7.2</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/20220905-113313 1.svg" alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">Salad mixed vinegar</h3>
+                                    <p class="food-detail">Salad, vinegar, tomato</p>
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>5.4</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/burger_with_fried_chicken_2021_08_29_03_54_46_utc 1.svg"
+                                        alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">Chicken burger</h3>
+                                    <p class="food-detail">fried chicken</p>
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>5.39</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="food-list-item">
+                        <a href="#">
+                            <section>
+                                <div class="item-image-wrapper">
+                                    <img src="images/ice_tea_2021_11_30_16_48_46_utc 1.svg" alt="food-item">
+                                </div>
+                                <div class="food-info">
+                                    <h3 class="food-title">Lipton</h3>
+                                    <p class="food-detail"></p>
+                                </div>
+                            </section>
+                        </a>
+                        <div class="vote">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="none">
+                                <path fill="#FFC300"
+                                    d="M9.049.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118L1.077 8.101c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69L9.05.927Z" />
+                            </svg>
+                            <span class="points">(5)</span>
+                        </div>
+                        <div class="shop">
+                            <div class="price">
+                                <span>2.8</span>$
+                            </div>
+                            <button class="cart">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+                                    <path fill="#ffffff" fill-rule="evenodd"
+                                        d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-list">
+                    <a href="#">See all</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- sale off part -->
+        <div class="sale-off-wrapper">
+            <div class="container">
+                <div class="sale-off-header">
+                    <h1>sale off</h1>
+                </div>
+                <div class="sale-off-main">
+                    <div class="sale-off-item">
+                        <a href="#">
+                            <div class="sale-off-info">
+                                <div class="sale-off-title">
+                                    <hr class="sale-off-line">
+                                    <div>Fast food</div>
+                                </div>
+                                <h2>combo funny</h2>
+                                <p>buy 1 funny combo <br> get 1 coca cola
+                                    <img class="sale-off-img" src="images/1.svg" alt="sale-off-food">
+                                </p>
+                                <div class="sale-off-price-wrapper">
+                                    <span class="old-price">10.3$</span>
+                                    <span class="sale-off-price">9.8$</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="order-link order-link-sale-off" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                <path fill="#ffffff" fill-rule="evenodd"
+                                    d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z"></path>
+                                <path fill="#ffffff" fill-rule="evenodd"
+                                    d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Order now</span>
+                        </a>
+                    </div>
+                    <div class="sale-off-item">
+                        <a href="#">
+                            <div class="sale-off-info">
+                                <div class="sale-off-title">
+                                    <hr>
+                                    <div>Fast food</div>
+                                </div>
+                                <h2>Salad mixed vinegar</h2>
+                                <p>
+                                    <img class="sale-off-img" src="images/20220905-113313 1.svg" alt="sale-off-food">
+                                </p>
+                                <div class="sale-off-price-wrapper">
+                                    <span class="old-price">10.3$</span>
+                                    <span class="sale-off-price">9.8$</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="order-link order-link-sale-off" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                <path fill="#323232" fill-rule="evenodd"
+                                    d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#323232" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z"></path>
+                                <path fill="#323232" fill-rule="evenodd"
+                                    d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Order now</span>
+                        </a>
+                    </div>
+                    <div class="sale-off-item">
+                        <a href="#">
+                            <div class="sale-off-info">
+                                <div class="sale-off-title">
+                                    <hr>
+                                    <div>House</div>
+                                </div>
+                                <h2>CHICKEN BUGGER</h2>
+                                <p>fried chicken
+                                    <img class="sale-off-img"
+                                        src="images/burger_with_fried_chicken_2021_08_29_03_54_46_utc 1.svg"
+                                        alt="sale-off-food">
+                                </p>
+                                <div class="sale-off-price-wrapper">
+                                    <span class="old-price">10.3$</span>
+                                    <span class="sale-off-price">9.8$</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="order-link order-link-sale-off" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+                                <path fill="#ffffff" fill-rule="evenodd"
+                                    d="M5.996 12a1 1 0 0 0-.969 1.247l1.398 5.493A3 3 0 0 0 9.332 21h5.333a3 3 0 0 0 2.908-2.263l1.391-5.491A1 1 0 0 0 17.995 12H5.996ZM9 16a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Zm4 0a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1Z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#ffffff" d="M3 9a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z"></path>
+                                <path fill="#ffffff" fill-rule="evenodd"
+                                    d="M10.707 4.707a1 1 0 0 0-1.414-1.414l-1 1a1 1 0 0 0 1.414 1.414l1-1Zm2.586 0a1 1 0 0 1 1.414-1.414l1 1a1 1 0 0 1-1.414 1.414l-1-1Z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span>Order now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- mobile app division -->
+        <div class="mobile-app-wrapper">
+            <div class="mobile-app-img-wrapper">
+                <img class="mobile-app-img" src="images/Group 23.svg" alt="">
+            </div>
+            <div class="mobile-app-info">
+                <p class="mobile-app-main-text">Exclusive offers and more</p>
+                <h1>mcdonald's mobile app</h1>
+                <p class="mobile-app-text">As a global No. 1 fast food brand, McDonald's wishes to bring customers not only delicious and
+                    hygienic food of international standards but also the best service experience.</p>
+                <div class="download-app">
+                    <a class="download-app-link" href="#">
+                        <div class="download-app-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="none">
+                                <path fill="#fff"
+                                    d="M6.261 5.861c.847-.019 1.568.266 2.291.543.234.09.467.182.698.281.61.26 1.209.253 1.824-.006.744-.313 1.484-.663 2.286-.79 2.197-.347 4.04.299 5.457 2.066.116.144.135.237-.047.365-.936.66-1.662 1.51-2.026 2.61-.607 1.836-.37 3.56.822 5.108a5.062 5.062 0 0 0 1.906 1.505c.148.068.081.154.054.239-.28.887-.659 1.732-1.132 2.529-.552.927-1.138 1.834-1.9 2.607-1.114 1.13-2.333 1.345-3.776.679-.488-.226-.978-.444-1.515-.526a4.71 4.71 0 0 0-2.748.4c-.456.212-.921.394-1.42.486-.824.153-1.521-.117-2.15-.628-.81-.657-1.393-1.508-1.964-2.364C1.691 19.117.938 17.08.59 14.888a11.447 11.447 0 0 1-.153-2.053c.03-1.305.247-2.571.86-3.738.819-1.56 2.05-2.62 3.759-3.076.41-.11.83-.174 1.205-.16ZM9.954 4.882c.029-1.033.458-2.033 1.15-2.917.77-.98 1.778-1.6 2.984-1.89.061-.015.124-.02.185-.032.512-.108.453-.022.45.38-.007 1.264-.436 2.379-1.212 3.357-.725.913-1.643 1.526-2.804 1.726a1.18 1.18 0 0 1-.207.021c-.643-.002-.523.114-.546-.645Z" />
+                            </svg>
+                        </div>
+                        <div class="download-app-info">
+                            <p>Download on the</p>
+                            <p>App Store</p>
+                        </div>
+                    </a>
+                    <a class="download-app-link" href="#">
+                        <div class="download-app-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" fill="none">
+                                <path fill="#fff"
+                                    d="m2.276.248.985.63c.026.028.055.051.094.056.115.096.246.169.377.242.276.192.56.37.85.54.073.061.151.115.24.152.076.071.166.12.26.164.324.225.659.435.997.64.034.03.068.062.116.07.09.08.197.136.302.195.155.109.31.217.48.304.009.028.034.032.059.034.105.095.23.158.352.226.333.228.673.445 1.02.65l.468.304.859.543c.077.066.161.119.253.16.074.067.155.12.248.155.317.223.644.431.98.624a.518.518 0 0 0 .186.121c.083.077.183.127.28.182l.415.265.112.066c.102.084.21.158.332.211a18.863 18.863 0 0 0 1.073.685l.404.262c.29.195.582.384.885.559l.156.116-.136.156-.28.278a.574.574 0 0 0-.151.15c-.129.109-.252.223-.361.352a.34.34 0 0 0-.113.113l-.355.356a.34.34 0 0 0-.113.113c-.139.104-.252.233-.368.36a.226.226 0 0 0-.096.096c-.14.109-.258.24-.377.371l-.125.125c-.041.038-.084.074-.124.114-.15.146-.15.147-.308.008a1.425 1.425 0 0 0-.246-.247l-.222-.223a1.418 1.418 0 0 0-.246-.247l-.222-.222a1.415 1.415 0 0 0-.246-.247l-.222-.223a1.413 1.413 0 0 0-.246-.246l-.222-.223a1.41 1.41 0 0 0-.245-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247l-.222-.223a1.413 1.413 0 0 0-.246-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247L8.41 7.24a1.413 1.413 0 0 0-.246-.246l-.187-.189a1.873 1.873 0 0 0-.28-.28l-.222-.223a1.413 1.413 0 0 0-.246-.247l-.222-.223a1.425 1.425 0 0 0-.246-.246l-.222-.223a1.413 1.413 0 0 0-.246-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247l-.222-.223a1.413 1.413 0 0 0-.245-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247l-.222-.223a1.413 1.413 0 0 0-.246-.246l-.222-.223a1.413 1.413 0 0 0-.246-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247l-.222-.223a1.413 1.413 0 0 0-.246-.246l-.221-.223a1.413 1.413 0 0 0-.246-.247l-.222-.222a1.413 1.413 0 0 0-.246-.247L1.86.669a1.42 1.42 0 0 0-.246-.246L1.392.2a.455.455 0 0 0-.159-.148c.31-.087.596-.07.866.095.06.038.119.069.177.101ZM2.796 23.421l-.52.334a.326.326 0 0 0-.138.09l-.311.13-.123.017a1.18 1.18 0 0 1-.354-.013c-.06-.01-.103-.028-.041-.093a.369.369 0 0 0 .12-.121l.31-.31a.596.596 0 0 0 .157-.16l.31-.31a.595.595 0 0 0 .158-.158l.31-.31a.596.596 0 0 0 .158-.16l.35-.349a.358.358 0 0 0 .118-.12l.31-.31a.595.595 0 0 0 .158-.159l.31-.31a.587.587 0 0 0 .157-.159l.31-.31a.597.597 0 0 0 .158-.159l.35-.349a.358.358 0 0 0 .118-.12l.31-.31a.586.586 0 0 0 .157-.159l.31-.31a.585.585 0 0 0 .158-.159l.31-.31a.596.596 0 0 0 .158-.159l.35-.35a.357.357 0 0 0 .117-.119l.31-.31a.595.595 0 0 0 .158-.159l.31-.31a.596.596 0 0 0 .158-.159l.31-.31a.596.596 0 0 0 .158-.16l.35-.349a.358.358 0 0 0 .118-.12l.31-.31a.596.596 0 0 0 .157-.158l.31-.31a.596.596 0 0 0 .158-.16l.31-.31a.595.595 0 0 0 .158-.158l.35-.35a.357.357 0 0 0 .118-.12l.31-.31a.596.596 0 0 0 .158-.159l.31-.31a.584.584 0 0 0 .157-.159l.31-.31a.59.59 0 0 0 .158-.159c.086-.114.152-.084.245.009.365.365.72.74 1.106 1.085l.451.452c.147.17.311.321.477.472.153.162.306.324.477.467.115.097.122.181-.03.246-.004.002-.007.008-.01.012-.09.049-.183.091-.257.164l-.242.151c-.269.158-.534.322-.788.505l-.074.038a.023.023 0 0 0-.013.009l-.351.23a.12.12 0 0 0-.093.062l-.986.624-.394.252-.098.065c-.14.068-.27.152-.391.251a1.14 1.14 0 0 0-.295.187.602.602 0 0 0-.206.127l-.978.623a1.037 1.037 0 0 0-.241.158.543.543 0 0 0-.187.118 12.25 12.25 0 0 0-.9.57c-.155.082-.3.18-.442.282-.011-.002-.02.001-.026.01-.33.212-.67.41-.988.64a2.15 2.15 0 0 0-.414.26l-.086.054c-.133.074-.268.147-.385.246-.115.053-.219.123-.316.204l-.19.115-.978.623a.952.952 0 0 0-.232.152.76.76 0 0 0-.205.13c-.303.169-.588.365-.879.553l-.455.296-.01-.002-.007.005ZM.364.99C.388.98.374.9.432.95c.031.026.058.059.088.088C4.12 4.651 7.722 8.264 11.326 11.874c.093.093.128.16.012.248a.597.597 0 0 0-.158.16l-.35.349a.357.357 0 0 0-.118.12l-.31.31a.595.595 0 0 0-.158.158l-.35.35a.357.357 0 0 0-.118.12l-.31.31a.597.597 0 0 0-.157.158l-.35.35a.358.358 0 0 0-.118.12l-.31.31a.596.596 0 0 0-.158.159l-.35.349a.357.357 0 0 0-.118.12l-.31.31a.596.596 0 0 0-.158.159l-.35.35a.357.357 0 0 0-.117.119l-.31.31a.595.595 0 0 0-.158.159l-.35.35a.358.358 0 0 0-.118.119l-.31.31a.596.596 0 0 0-.158.159l-.35.35a.358.358 0 0 0-.118.119l-.31.31a.596.596 0 0 0-.157.159l-.35.35a.358.358 0 0 0-.118.12l-.31.31a.595.595 0 0 0-.158.158l-.35.35a.358.358 0 0 0-.118.12l-.31.31a.595.595 0 0 0-.158.158l-.35.35a.358.358 0 0 0-.117.12l-.31.31a.596.596 0 0 0-.158.158l-.35.35a.358.358 0 0 0-.118.12l-.31.31a.585.585 0 0 0-.158.159l-.35.349a.324.324 0 0 0-.116.12c-.106-.086-.066-.208-.066-.314V1.242c0-.063.002-.125.003-.188L.364.991ZM19.134 11.001l.24.216c.218.289.31.611.267.971a26.7 26.7 0 0 0-.012.104l-.121.3c-.113.153-.224.306-.39.41-.141.09-.28.187-.42.28-.13.076-.261.148-.376.247-.04.004-.068.028-.094.056l-1.018.66c-.127.06-.244.137-.352.227l-.084.055c-.127.06-.244.136-.352.225l-.074.04a.02.02 0 0 0-.013.008c-.134.077-.264.233-.408.015-.097-.11-.193-.221-.31-.313l-.194-.197-.263-.274-.199-.2c-.08-.098-.17-.189-.269-.27l-.199-.198a7.252 7.252 0 0 0-.598-.61l-.091-.092-.03-.034a.88.88 0 0 0-.185-.19l-.313-.315c-.11-.085-.098-.161.009-.243.056-.043.098-.104.146-.156a.615.615 0 0 0 .158-.158c.12-.108.238-.22.34-.346l.093-.096c.134-.126.274-.247.384-.397l-.002.003.07-.07.02-.02.354-.355a.341.341 0 0 0 .114-.114l.354-.355c.035-.04.071-.078.107-.117l.351-.354.126-.131c.19-.163.189-.163.408-.026.017.01.035.018.053.027.048.038.094.08.156.097.095.08.198.146.309.2.119.096.247.18.384.246.046.03.092.06.138.092.106.084.219.157.34.216l1.012.655c.01.025.03.032.056.032.115.1.247.174.378.25Z" />
+                            </svg>
+                        </div>
+                        <div class="download-app-info">
+                            <p>Download on the</p>
+                            <p>Google Play</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- find store near -->
+        <div class="find-store-wrapper">
+            <div class="container">
+                <div class="find-store">
+                    <div class="find-store-content">
+                        <h1>find a foodeli store near you</h1>
+                        <p>see the convenience store address with you most</p>
+                        <div class="location-field">
+                            <input class="location-input" type="text" placeholder="Typing location">
+                            <button class="location-button">see on map</button>
+                        </div>
+                    </div>
+                    <img src="images/20220905-113313 1.svg" alt="food-picture">
+                    <img src="images/burger_with_fried_chicken_2021_08_29_03_54_46_utc 1.svg" alt="food-picture">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- style footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="images/lgo.svg" alt="logo">
+                        <h2>Mc Donald’s</h2>
+                    </div>
+                    <div class="footer-social-media">
+                        <img src="images/Twitter.svg" alt="">
+                        <img src="images/Facebook.svg" alt="">
+                        <img src="images/Messenger.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>useful links</h4>
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Sale off</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-extra-info">
+                    <h4>opening hour</h4>
+                    <p>Monday - Friday:9:00 - 23:00h</p>
+                    <p>Saturday:09:00 - 16:00h</p>
+                    <p>Sunday:12:00 - 18:00h</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
