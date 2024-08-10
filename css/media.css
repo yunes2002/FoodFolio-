@@ -5,6 +5,7 @@
 
   .mobile-app-img-wrapper img {
     max-width: 350px;
+    top: -20px;
   }
 }
 
@@ -20,16 +21,21 @@
 
   .mobile-app-img-wrapper img {
     max-width: 300px;
+    top: -16px;
   }
 
   .food-list-items {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   }
+
+  .sale-off-img {
+    width: 180px;
+  }
 }
 
 @media only screen and (max-width: 1124px) {
   img.header-image {
-    width: 500px;
+    max-width: 500px;
   }
 
   .order-info h1 {
@@ -47,7 +53,7 @@
   }
 
   img.header-image {
-    width: 400px;
+    max-width: 400px;
   }
 
   .delivery-info {
@@ -77,14 +83,6 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .header-bottom {
-    grid-template-areas:
-      "order_info"
-      "header_image"
-      "order_food";
-    justify-items: center;
-  }
-
   .header-image-wrapper {
     justify-self: auto;
   }
@@ -130,10 +128,9 @@
     margin: 0 1rem;
   }
 
-  .delivery-info {
-    top: initial;
-    left: -75px;
-    bottom: -65px;
+  .order-info {
+    margin-bottom: 0;
+    margin-top: 4rem;
   }
 }
 
@@ -148,6 +145,82 @@
 
   .food-list-items {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .item-image-wrapper {
+    width: 180px;
+  }
+
+  .order-count {
+    width: 120px;
+    height: 40px;
+  }
+
+  .order-count button img {
+    width: 18px;
+  }
+
+  .order-link-main {
+    margin-left: 1rem;
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+
+  .order-info {
+    max-width: 280px;
+  }
+
+  .order-info h1 {
+    text-shadow: none;
+  }
+
+  .order-info p {
+    text-shadow: none;
+  }
+
+  .delivery-info {
+    width: 130px;
+    font-size: 14px;
+    padding: 12px 16px;
+    left: -100px;
+  }
+
+  .delivery-info-title span:first-child {
+    font-size: 1rem;
+  }
+
+  .mobile-app-img-wrapper img {
+    max-width: 250px;
+    top: -12px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .header-bottom {
+    grid-template-areas:
+      "order_info"
+      "header_image"
+      "order_food";
+    justify-items: center;
+  }
+
+  /* .header-bottom .order-info, 
+  .header-bottom .order-food, 
+  .header-bottom .header-image-wrapper {
+      width: 100%;
+      text-align: center;
+  } */
+
+  .delivery-info {
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .order-info {
+    max-width: 430px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
   }
 }
 
@@ -174,7 +247,7 @@
     justify-content: center;
     border-radius: 500px 500px 0 0;
     text-align: center;
-    padding: 4rem 0 0 0;
+    padding: 4rem 1rem 0;
   }
 
   .mobile-app-info {
@@ -186,17 +259,11 @@
   }
 
   img.header-image {
-    width: 350px;
+    max-width: 350px;
   }
 
   .delivery-info {
-    width: 130px;
-    left: -10px;
-    font-size: 14px;
-  }
-
-  .delivery-info-title span:first-child {
-    font-size: 1rem;
+    margin-top: 1rem;
   }
 
   .header-logo {
@@ -229,10 +296,7 @@
 @media only screen and (max-width: 425px) {
   .download-app {
     font-size: 10px;
-  }
-
-  .download-app-link {
-    padding: 12px 20px;
+    flex-direction: column;
   }
 
   .find-store-content h1 {
@@ -248,19 +312,17 @@
   }
 
   .order-count {
-    font-size: 1rem;
+    width: 100px;
   }
 
   .order-link-main {
     font-size: 1rem;
+    margin-left: 0.8rem;
+    padding: 8px 12px;
   }
 
   img.header-image {
-    width: 300px;
-  }
-
-  .order-link-main {
-    margin-left: 0.8rem;
+    max-width: 300px;
   }
 
   .header-logo {
@@ -272,10 +334,58 @@
   }
 
   .sale-off-main {
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 
   .food-list-items {
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  input.location-input::placeholder {
+    font-size: 12px;
+    /* z-index: 2;  */
+  }
+
+  .header-logo img {
+    max-width: 40px;
+  }
+
+  .header-links a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .header-top {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .location-field {
+    width: 220px;
+  }
+
+  .location-button span {
+    display: none;
+  }
+
+  .fa-solid.fa-location-dot.location-map-icon {
+    display: inline;
+    font-size: 1.4rem;
+  }
+
+  .find-store-content h1 {
+    max-width: 200px;
+    line-height: 1.6rem;
+  }
+
+  .find-store-content p {
+    max-width: 200px;
+    line-height: 1.4rem;
+  }
+
+  .mobile-app-info h1 {
+    max-width: 200px;
   }
 }

@@ -75,7 +75,9 @@ a {
 }
 
 .header-logo img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
 .nav-menu ul {
@@ -105,7 +107,7 @@ a {
 .header-links a {
     border-radius: 100px;
     border: 1px solid var(--brown);
-    padding: 7px 16px 8px 16px;
+    padding: 8px 16px;
 }
 
 .header-links a:first-child {
@@ -214,6 +216,12 @@ a {
     justify-self: end;
 }
 
+img.header-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
 .delivery-info {
     display: flex;
     justify-content: space-between;
@@ -253,6 +261,7 @@ a {
     color: var(--brown);
     font-size: 48px;
     font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 .categories-list {
@@ -283,6 +292,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 4rem 2rem;
+    margin-bottom: 2rem;
 } 
 
 .food-list-item {
@@ -298,6 +308,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 100%;
 }
 
@@ -324,6 +335,12 @@ a {
 
 .food-title {
     color: var(--black1);
+    margin-bottom: 0.6rem;
+    line-height: 1.5rem;
+}
+
+.food-detail {
+    line-height: 1.5rem;
 }
 
 .vote {
@@ -360,18 +377,26 @@ a {
     background-color: var(--brown);
 }
 
+.see-all-list {
+    padding: 20px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--gray3);
+}
+
+/* start the sale off part */
+
+.sale-off-header {
+    margin-bottom: 2rem;
+}
+
 .sale-off-wrapper {
     margin-bottom: 8rem;
 }
 
-.see-all-menu {
-    margin-top: 1rem;
-    text-align: center;
-}
-
 .sale-off-main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 2rem;
 }
 
@@ -379,14 +404,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     padding: 2.5rem 0 1rem 1rem;
-
     position: relative;
     border-radius: 20px;
     background-color: var(--gray2);
     overflow: hidden;
     transition: transform 0.2s;
+    z-index: 0;
 }
 
 .sale-off-item:nth-child(2) {
@@ -434,10 +458,12 @@ a {
     margin-bottom: 0.8rem;
     text-transform: uppercase;
     color: var(--brown);
+    line-height: 1.8rem;
 }
 
 .sale-off-info p {
     margin-bottom: 0.8rem;
+    line-height: 1.5rem;
 }
 
 .sale-off-price-wrapper .old-price {
@@ -461,6 +487,7 @@ a {
     position: absolute;
     top: 25%;
     right: -50px;
+    z-index: -1;
 }
 
 .sale-off-price {
@@ -483,12 +510,13 @@ a {
 }
 
 .mobile-app-img-wrapper img {
-    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     object-fit: cover;
     transform: scale(1.2);
     position: relative;
-    max-width: 400px;
-    top: -25px;
+    top: -23px;
 }
 
 .mobile-app-info {
@@ -500,7 +528,7 @@ a {
 .mobile-app-info h1 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    font-weight: 400;
+    line-height: 2.5rem;
     margin-bottom: 1rem;
     color: var(--brown);
 }
@@ -559,6 +587,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
+    text-align: center;
 }
 
 .find-store-content h1 {
@@ -621,6 +650,10 @@ a {
     left: -80px;
 }
 
+.fa-solid.fa-location-dot.location-map-icon {
+    display: none;
+}
+
 .find-store > img:last-of-type {
     bottom: -50px;
     left: 120px;
@@ -633,6 +666,7 @@ a {
 .footer-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 8rem;
     padding: 2rem 0 0 4rem;
 }
@@ -641,7 +675,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .footer-logo {
