@@ -358,13 +358,6 @@
   .header-top {
     margin-bottom: 2rem;
   }
-}
-
-@media only screen and (max-width: 375px) {
-
-  .location-field {
-    width: 220px;
-  }
 
   .location-button span {
     display: none;
@@ -373,6 +366,21 @@
   .fa-solid.fa-location-dot.location-map-icon {
     display: inline;
     font-size: 1.4rem;
+  }
+
+  .location-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .location-field {
+    width: 220px;
   }
 
   .find-store-content h1 {
